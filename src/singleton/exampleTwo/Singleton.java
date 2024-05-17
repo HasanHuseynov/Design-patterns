@@ -1,4 +1,4 @@
-package exampleTwo;
+package singleton.exampleTwo;
 
 public class Singleton {
     private static Singleton instance;

@@ -5,17 +5,37 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f8a6464c-ee7a-4c07-bbbc-b9c97e719615" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Singleton-pattern.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exampleOne/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exampleOne/Singleton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exampleThree/Singleton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exampleTwo/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exampleTwo/Singleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/abstractFactory/AbstractFactoryPatternDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/abstractFactory/Alert.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/abstractFactory/EmailAlert.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/abstractFactory/EmailFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/abstractFactory/EmailNotification.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/abstractFactory/Notification.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/abstractFactory/NotificationFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/abstractFactory/SMSAlert.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/abstractFactory/SMSFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/abstractFactory/SMSNotification.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/factory/EmailNotification.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/factory/EmailNotificationFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/factory/FactoryPatternDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/factory/Notification.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/factory/NotificationFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/factory/SMSNotification.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/factory/SMSNotificationFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/prototype/Document.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/prototype/DocumentCache.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/prototype/Presentation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/prototype/PrototypePatternDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/prototype/Report.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Singleton-pattern.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Design-patterns.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/exampleOne/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/singleton/exampleOne/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/exampleOne/Singleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/singleton/exampleOne/Singleton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/exampleThree/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/singleton/exampleThree/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/exampleThree/Singleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/singleton/exampleThree/Singleton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/exampleTwo/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/singleton/exampleTwo/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/exampleTwo/Singleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/singleton/exampleTwo/Singleton.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +47,7 @@
       <list>
         <option value="Enum" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -42,19 +63,35 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/HP/Desktop/Solid-principles&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="Design-patterns" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="Design-patterns" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -63,7 +100,10 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1715776647280</updated>
-      <workItem from="1715776648645" duration="1407000" />
+      <workItem from="1715776648645" duration="1858000" />
+      <workItem from="1715779883016" duration="410000" />
+      <workItem from="1715784159667" duration="648000" />
+      <workItem from="1715971293391" duration="3444000" />
     </task>
     <servers />
   </component>

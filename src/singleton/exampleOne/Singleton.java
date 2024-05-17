@@ -1,4 +1,4 @@
-package exampleOne;
+package singleton.exampleOne;
 
 public enum Singleton {
 
