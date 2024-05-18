@@ -1,4 +1,4 @@
-package Builder;
+package builder;
 
 public class BuilderPatternDemo {
     public static void main(String[] args) {

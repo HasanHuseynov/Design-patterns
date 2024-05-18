@@ -1,4 +1,4 @@
-package Builder;
+package builder;
 
 public class Computer {
     private final String CPU;
